@@ -1,6 +1,6 @@
 import "./hero.css";
 import { useNavigate } from "react-router-dom";
-import heroImage from "../../assets/hero1.png";
+import heroImage from "../../assets/hero2.png";
 
 function Hero() {
   const navigate = useNavigate();
@@ -11,7 +11,7 @@ function Hero() {
       <div className="hero-content">
 
         <h1>
-          ML  <span>Fake News Detection</span>
+          ML Based <span>Fake News Detection</span>
         </h1>
 
         <p>

@@ -1,7 +1,7 @@
 import Navbar from "../components/navbar/navbar";
 import "./About.css";
 
-import aboutImage from "../assets/about.png";
+import aboutImage from "../assets/hero2.png";
 
 import {
   FaCheckCircle,

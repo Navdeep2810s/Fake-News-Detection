@@ -60,7 +60,7 @@ function Detect() {
       <Navbar />
 
       <section className="detect-page">
-        <h1>AI Fake News Detection</h1>
+        <h1> Fake News Detection</h1>
 
         <p>
           Paste a news article below or upload a TXT file and let our AI analyze

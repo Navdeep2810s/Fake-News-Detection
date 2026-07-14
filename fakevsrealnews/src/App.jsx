@@ -6,6 +6,7 @@ import Detect from "./pages/detect";
 import Dashboard from "./pages/Dashboard";
 import Contact from "./pages/Contact";
 
+
 function App() {
   return (
     <Routes>

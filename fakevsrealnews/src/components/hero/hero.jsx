@@ -11,7 +11,7 @@ function Hero() {
       <div className="hero-content">
 
         <h1>
-          AI-Powered <span>Fake News Detection</span>
+          ML  <span>Fake News Detection</span>
         </h1>
 
         <p>

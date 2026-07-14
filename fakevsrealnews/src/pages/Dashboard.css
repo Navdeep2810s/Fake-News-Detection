@@ -1,0 +1,92 @@
+.dashboard {
+    padding: 80px 10%;
+    background: #f8fafc;
+    min-height: 100vh;
+}
+
+.dashboard h1 {
+    text-align: center;
+    font-size: 48px;
+    color: #0f172a;
+}
+
+.dashboard p {
+    text-align: center;
+    color: #64748b;
+    margin: 15px 0 50px;
+    font-size: 18px;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 25px;
+    margin-bottom: 60px;
+}
+
+.stat-box {
+    background: white;
+    padding: 30px;
+    border-radius: 18px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,.08);
+    transition: .3s;
+}
+
+.stat-box:hover {
+    transform: translateY(-8px);
+}
+
+.dash-icon {
+    font-size: 45px;
+    color: #2563eb;
+    margin-bottom: 15px;
+}
+
+.stat-box h2 {
+    color: #0f172a;
+    margin-bottom: 10px;
+}
+
+.stat-box span {
+    color: #64748b;
+}
+
+.recent {
+    background: white;
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0 8px 20px rgba(0,0,0,.08);
+}
+
+.recent h2 {
+    margin-bottom: 20px;
+    color: #0f172a;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+th {
+    background: #2563eb;
+    color: white;
+}
+
+.real {
+    color: green;
+    font-weight: bold;
+}
+
+.fake {
+    color: red;
+    font-weight: bold;
+}

@@ -1,0 +1,143 @@
+.detect-page{
+
+    padding:80px 10%;
+    text-align:center;
+
+}
+
+.detect-page h1{
+
+    font-size:48px;
+    color:#0f172a;
+
+}
+
+.detect-page p{
+
+    margin:20px auto 40px;
+    max-width:700px;
+    color:#475569;
+    line-height:1.8;
+    font-size:18px;
+
+}
+
+.detect-page textarea{
+
+    width:100%;
+    max-width:900px;
+
+    height:280px;
+
+    padding:25px;
+
+    border-radius:18px;
+
+    border:2px solid #cbd5e1;
+
+    resize:none;
+
+    font-size:18px;
+
+    outline:none;
+
+}
+
+.detect-page textarea:focus{
+
+    border-color:#2563eb;
+
+}
+
+.detect-buttons{
+
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    margin-top:35px;
+
+}
+
+.detect-buttons button{
+
+    display:flex;
+    align-items:center;
+    gap:10px;
+
+    padding:15px 30px;
+
+    border:none;
+
+    border-radius:12px;
+
+    cursor:pointer;
+
+    font-size:18px;
+
+}
+
+.upload-btn{
+
+    background:#e2e8f0;
+
+}
+
+.detect-btn{
+
+    background:#2563eb;
+    color:white;
+
+}
+.result-card{
+
+    max-width:650px;
+    margin:40px auto;
+    padding:35px;
+
+    background:white;
+
+    border-radius:18px;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+    text-align:left;
+
+}
+
+.result-card h2{
+
+    color:#2563eb;
+    margin-bottom:20px;
+
+}
+
+.result-card p{
+
+    margin:12px 0;
+    line-height:1.8;
+    color:#475569;
+
+}
+.upload-btn{
+
+    display:inline-flex;
+    align-items:center;
+    gap:10px;
+
+    padding:15px 25px;
+
+    background:#f1f5f9;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.upload-btn:hover{
+
+    background:#dbeafe;
+
+}

@@ -26,14 +26,14 @@ function Detect() {
         formData.append("file", file);
   
         response = await axios.post(
-          "http://127.0.0.1:5000/upload",
+          "https://fake-news-detection-sz5o.onrender.com/upload",
           formData
         );
   
       } else {
   
         response = await axios.post(
-          "http://127.0.0.1:5000/predict",
+          "https://fake-news-detection-sz5o.onrender.com/predict",
           {
             text
           }

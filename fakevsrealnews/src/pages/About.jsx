@@ -29,7 +29,7 @@ function About() {
             <h1>About Fake News Detection</h1>
 
             <p>
-              Fake News Detection is an AI-powered web application
+              Fake News Detection is an ML Based web application
               that analyzes news articles using Machine Learning and
               Natural Language Processing. It helps users identify
               whether a news article is genuine or fake.
@@ -104,7 +104,7 @@ function About() {
         <h2>Project Objective</h2>
 
         <p>
-          The objective of this project is to develop an AI-powered
+          The objective of this project is to develop an ML Based
           fake news detection system capable of classifying news
           articles with high accuracy using Machine Learning,
           Natural Language Processing, and a user-friendly web
